@@ -6,5 +6,6 @@ diesel::table! {
         title -> Text,
         content_html -> Text,
         created_at -> Timestamp,
+        category -> Text,
     }
 }
